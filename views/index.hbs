@@ -11,13 +11,16 @@
 <body>
     {{#each helado}}
     <div style="flex:1 1 40%">
-        <a href="/peoducto/{{sabor}}">
+        <a href="/producto/{{sabor}}">
             <div>
-                <p>
-                    <b>{{holi}}</b>
-                    <p>{{sabor}}</p>
-                </p>
 
+                <h3>
+                    <b>{{Nombre}}</b>
+                </h3>
+                <h5>
+                    <p>{{sabor}}</p>
+                </h5>
+                <img src="{{imagen}}" alt="">
 
             </div>
 
@@ -28,6 +31,7 @@
 
 
     </div>
+    {{/each}}
 </body>
 
 </html>

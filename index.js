@@ -14,7 +14,7 @@ app.set('view engine', 'hbs');
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
     if (err) throw err;
 
-    db = client.db('cono');
+    db = client.db('Helados');
 
     // Iniciar servidor
     app.listen(1234);
@@ -28,8 +28,8 @@ app.get('/', (req, res) => {
     var prod = db.collection('cono')
     .find();
     
-    if(req.query.sabor)
-        prod.filter({ sabor: req.query.sabor });
+    if(req.query.imagen)
+        prod.filter({ imagen: req.query.imagen });
 
 
     prod.toArray((err, result) => {
