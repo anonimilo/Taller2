@@ -9,7 +9,7 @@ app.engine('hbs', engines.handlebars);
 
 app.set('views', './views');
 app.set('view engine', 'hbs');
-
+app.use(express.static('public'));
 // Conectarse a Base de Datos
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
     if (err) throw err;
@@ -28,8 +28,8 @@ app.get('/', (req, res) => {
     var prod = db.collection('cono')
     .find();
     
-    if(req.query.imagen)
-        prod.filter({ imagen: req.query.imagen });
+    if(req.query.oferta)
+        prod.filter({ oferta: req.query.oferta });
 
 
     prod.toArray((err, result) => {
@@ -39,3 +39,6 @@ app.get('/', (req, res) => {
             });
         })
 });
+
+
+

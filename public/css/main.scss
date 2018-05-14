@@ -1,0 +1,34 @@
+.Productos {
+    color: tomato;
+    position: absolute;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 90%;
+}
+
+.logo {
+    margin-top: 15PX;
+    margin-left: 15PX;
+    float: left;
+    width: 80%;
+    height: 80%;
+}
+
+.filtro {
+    h3 {
+        color: darkgrey;
+        font-weight: 900;
+        letter-spacing: 5mm;
+    }
+    font-family: 'Montserrat',
+    sans-serif;
+    margin-top: 190px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    .cate {
+        font-size: 12px;
+        color: darkgrey;
+    }
+}
