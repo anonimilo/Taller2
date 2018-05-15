@@ -5,29 +5,56 @@
   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Productos</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link rel="stylesheet" href="/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-      <link rel="stylesheet" href="/css/main.css">
- 
+    <title>Productos</title>
+
+
+
 </head>
 
 <body>
-<h2>Productos</h2>
-    {{#each helado}}
-    <div class="Productos">
-        
-        <a href="/producto/{{sabor}}">
-            <div>
-                     <img src="{{imagen}}" alt="">
-                <h3>
-                    <b>{{Nombre}}</b>
-                </h3>
-            </div>
 
-        </a>
+<div class="productosContainer">
+    
+<img src="/Imagenes/Logo.png" alt="" width="10%">
+<h2>Productos</h2>
+    {{#each cono}}
+    <div class="productoContainer">
+
+        <div class="producto"  >
+            <a href="/cono/{{Nombre}}">
+                <img src="{{imagen}}" alt="{{Nombre}}">
+            </a>
+        </div>    
     </div>
     {{/each}}
+
+    </div>
+    <div class="filtrar">
+        <div class="price">
+            <h3 class="Orden">Precio</h3>
+            <a href="/?precio=2000&precio=3000"><h2>2000 - 3000</h2></a>
+            <a href="/?precio=3000&precio=6000"><h2>3000 - 6000</h2></a>
+            <a href="/?precio=6000&precio=100000"><h2>6000...+</h2></a>
+        </div>
+
+
+
+        <div class="sabor">
+            <h3 class="titleSort">Sabores</h3>
+            <a href="/?sabor=Chocolate"><h2>Chocolate</h2></a>
+            <a href="/?sabor=Vainilla"><h2>Vainilla</h2></a>
+            <a href="/?sabor=Fresa"><h2>Fresa</h2></a>
+        </div>
+
+    </div>
+
+
+
+
+
 </body>
 
 </html>

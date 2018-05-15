@@ -1,0 +1,47 @@
+
+
+{"Helados":[
+
+{
+   
+    "Nombre" : "Choco Paradise",
+    "sabor" : "Chocolate",
+    "topping" : "Fresa",
+    "precio" : 8500,
+    "oferta" : "si",
+    "imagen" : "/Imagenes/Chocolate.jpg"
+}
+
+,
+{
+   
+    "Nombre" : "Party Avocado",
+    "sabor" : "Vainilla",
+    "topping" : "Aguacate",
+    "precio" : 6000,
+    "oferta" : "no",
+    "imagen" : "/Imagenes/Choco.jpg"
+}
+
+,
+{
+  
+    "Nombre" : "Strawny",
+    "sabor" : "Fresa",
+    "topping" : "Chocolate blanco",
+    "precio" : 8500,
+    "oferta" : "si",
+    "imagen" : "/Imagenes/Fresa.jpg"
+}
+
+,
+{
+   
+    "Nombre" : "Vainilla Lovers",
+    "sabor" : "Vainilla",
+    "topping" : "Fresa",
+    "precio" : 2000,
+    "oferta" : "si",
+    "imagen" : "/Imagenes/Candy.jpg"
+}
+]}

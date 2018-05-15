@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient,
     express = require('express');
-    engines = require('consolidate');
+engines = require('consolidate');
 
 var app = express(),
     db;
@@ -13,32 +13,40 @@ app.use(express.static('public'));
 // Conectarse a Base de Datos
 MongoClient.connect('mongodb://localhost:27017', function (err, client) {
     if (err) throw err;
-
     db = client.db('Helados');
 
+
+
     // Iniciar servidor
-    app.listen(5500);
+    app.listen(1234);
 });
 
+app.get("/", (req, res) => {
 
 
-app.get('/', (req, res) => {
-    
-
-    var prod = db.collection('cono')
-    .find();
-    
-    if(req.query.oferta)
-        prod.filter({ oferta: req.query.oferta });
 
 
-    prod.toArray((err, result) => {
-            console.log('hola servidor')
-            res.render('index', {
-                helado: result
-            });
+    console.log("hola");
+    var cono = db.collection('cono').find();
+    if (req.query.precio) {
+        console.log(req.query.precio);
+        cono.filter({
+            precio: {
+                $gte: parseFloat(req.query.precio[0]),
+                $lte: parseFloat(req.query.precio[1])
+            }
+        });
+    }
+    if (req.query.sabor) 
+    cono.filter({
+        sabor: req.query.sabor
+    });
+
+    cono.toArray((err, result) => {
+        console.log(result);
+        res.render('index', {
+            cono: result
         })
+    });
+
 });
-
-
-
