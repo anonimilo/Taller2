@@ -1,47 +1,100 @@
-
-
-{"Helados":[
-
 {
-   
-    "Nombre" : "Choco Paradise",
-    "sabor" : "Chocolate",
-    "topping" : "Fresa",
-    "precio" : 8500,
-    "oferta" : "si",
-    "imagen" : "/Imagenes/Chocolate.jpg"
-}
+    "Helados": [
 
-,
-{
-   
-    "Nombre" : "Party Avocado",
-    "sabor" : "Vainilla",
-    "topping" : "Aguacate",
-    "precio" : 6000,
-    "oferta" : "no",
-    "imagen" : "/Imagenes/Choco.jpg"
-}
+        {
 
-,
-{
-  
-    "Nombre" : "Strawny",
-    "sabor" : "Fresa",
-    "topping" : "Chocolate blanco",
-    "precio" : 8500,
-    "oferta" : "si",
-    "imagen" : "/Imagenes/Fresa.jpg"
-}
+            "Nombre": "Choco Paradise",
+            "sabor": "Chocolate",
+            "topping": "Fresa",
+            "precio": 8500,
+            "oferta": "si",
+            "imagen": "/Imagenes/Chocolate.jpg"
+        }
 
-,
-{
-   
-    "Nombre" : "Vainilla Lovers",
-    "sabor" : "Vainilla",
-    "topping" : "Fresa",
-    "precio" : 2000,
-    "oferta" : "si",
-    "imagen" : "/Imagenes/Candy.jpg"
+        ,
+        {
+
+            "Nombre": "Party Avocado",
+            "sabor": "Vainilla",
+            "topping": "Aguacate",
+            "precio": 6000,
+            "oferta": "no",
+            "imagen": "/Imagenes/Choco.jpg"
+        }
+
+        ,
+        {
+
+            "Nombre": "Strawny",
+            "sabor": "Fresa",
+            "topping": "Chocolate blanco",
+            "precio": 8500,
+            "oferta": "si",
+            "imagen": "/Imagenes/Fresa.jpg"
+        }
+
+        ,
+        {
+
+            "Nombre": "Vainilla Lovers",
+            "sabor": "Vainilla",
+            "topping": "Fresa",
+            "precio": 2000,
+            "oferta": "si",
+            "imagen": "/Imagenes/Candy.jpg"
+        },
+        {
+
+
+            "Nombre": "Choqui",
+            "sabor": "Chocolate",
+            "topping": "Vainilla",
+            "precio": 5500,
+            "oferta": "si",
+            "imagen": "/Imagenes/Chocoli.jpg"
+
+        }, {
+
+            "Nombre": "Strawberry Lover",
+            "sabor": "Fresa",
+            "topping": "Chocolate",
+            "precio": 6900,
+            "oferta": "si",
+            "imagen": "/Imagenes/Straw.jpg"
+        },
+        {
+            "Nombre": "Avocado Party",
+            "sabor": "Vainilla",
+            "topping": "Aguacate",
+            "precio": 8500,
+            "oferta": "si",
+            "imagen": "/Imagenes/Avocado.jpg"
+        },
+        {
+            "Nombre": "Tropical Life",
+            "sabor": "Fresa",
+            "topping": "Chocolate",
+            "precio": 7350,
+            "oferta": "no",
+            "imagen": "/Imagenes/Tropi.jpg"
+        },
+        {
+            "Nombre": "Choco Expresión",
+            "sabor": "Chocolate",
+            "topping": "Vainilla",
+            "precio": 1500,
+            "oferta": "no",
+            "imagen": "/Imagenes/chocoex.jpg"
+        },
+        {
+            "Nombre": "Moriwi",
+            "sabor": "Fresa",
+            "topping": "Mora Intensa",
+            "precio": 5000,
+            "oferta": "si",
+            "imagen": "/Imagenes/moriwi.jpg"
+        }
+
+
+    ]
 }
-]}
