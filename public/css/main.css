@@ -9,21 +9,28 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-body .productos {
-  display: flex;
-}
-
-body .productos .holi {
+body .header .holi {
+  position: absolute;
   margin-top: 25px;
   margin-left: 15px;
 }
 
-body .productos h2 {
+body .header h2 {
+  position: relative;
   color: #ee7b7b;
   font-size: 40px;
-  margin-top: 100px;
+  padding-top: 120px;
   font-weight: 700;
-  margin-left: 10px;
+  padding-left: 270px;
+}
+
+body .productos {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
 }
 
 body .productos .producto {
@@ -35,7 +42,6 @@ body .productos .producto {
 }
 
 body .filtro {
-  color: black;
   font-family: 'Montserrat',sans-serif;
   margin-top: 190px;
   position: absolute;

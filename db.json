@@ -8,7 +8,8 @@
             "topping": "Fresa",
             "precio": 8500,
             "oferta": "si",
-            "imagen": "/Imagenes/Chocolate.jpg"
+            "imagen": "/Imagenes/Chocolate.jpg",
+            "descripción":"Chocolate con crema de fresa"
         }
 
         ,
@@ -19,7 +20,8 @@
             "topping": "Aguacate",
             "precio": 6000,
             "oferta": "no",
-            "imagen": "/Imagenes/Choco.jpg"
+            "imagen": "/Imagenes/Choco.jpg",
+            "descripción":"Chocolate con crema de fresa"
         }
 
         ,
@@ -30,7 +32,8 @@
             "topping": "Chocolate blanco",
             "precio": 8500,
             "oferta": "si",
-            "imagen": "/Imagenes/Fresa.jpg"
+            "imagen": "/Imagenes/Fresa.jpg",
+            "descripción":"Chocolate con crema de fresa"
         }
 
         ,
@@ -41,17 +44,17 @@
             "topping": "Fresa",
             "precio": 2000,
             "oferta": "si",
-            "imagen": "/Imagenes/Candy.jpg"
+            "imagen": "/Imagenes/Candy.jpg",
+            "descripción":"Chocolate con crema de fresa"
         },
         {
-
-
             "Nombre": "Choqui",
             "sabor": "Chocolate",
             "topping": "Vainilla",
             "precio": 5500,
             "oferta": "si",
-            "imagen": "/Imagenes/Chocoli.jpg"
+            "imagen": "/Imagenes/Chocoli.jpg",
+            "descripción":"Chocolate con crema de fresa"
 
         }, {
 
