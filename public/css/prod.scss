@@ -8,11 +8,16 @@ body{
     
     margin-left: 20px;
     font-family: 'Montserrat', sans-serif;  
-    margin-top: 250px;
+    margin-top: 40px;
     .producto{
         font-family: 'Montserrat', sans-serif;  
         color:#432150;
-        font-size:px; 
+        font-size:105px; 
+
+        .imagen:hover{
+            transform: scale(1.1);
+            
+        }
     }
         
 
