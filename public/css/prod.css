@@ -5,6 +5,14 @@
 }
 
 body {
+  margin-left: 20px;
   font-family: 'Montserrat', sans-serif;
+  margin-top: 250px;
+}
+
+body .producto {
+  font-family: 'Montserrat', sans-serif;
+  color: #432150;
+  font-size: px;
 }
 /*# sourceMappingURL=prod.css.map */

@@ -63,7 +63,8 @@
             "topping": "Chocolate",
             "precio": 6900,
             "oferta": "si",
-            "imagen": "/Imagenes/Straw.jpg"
+            "imagen": "/Imagenes/Straw.jpg",
+            "descripción":"Chocolate con crema de fresa"
         },
         {
             "Nombre": "AvocadoParty",
@@ -71,7 +72,8 @@
             "topping": "Aguacate",
             "precio": 8500,
             "oferta": "si",
-            "imagen": "/Imagenes/Avocado.jpg"
+            "imagen": "/Imagenes/Avocado.jpg",
+            "descripción":"Chocolate con crema de fresa"
         },
         {
             "Nombre": "TropicalLife",
@@ -79,7 +81,8 @@
             "topping": "Chocolate",
             "precio": 7350,
             "oferta": "no",
-            "imagen": "/Imagenes/Tropi.jpg"
+            "imagen": "/Imagenes/Tropi.jpg",
+            "descripción":"Chocolate con crema de fresa"
         },
         {
             "Nombre": "ChocoExpresión",
@@ -87,7 +90,8 @@
             "topping": "Vainilla",
             "precio": 1500,
             "oferta": "no",
-            "imagen": "/Imagenes/chocoex.jpg"
+            "imagen": "/Imagenes/chocoex.jpg",
+            "descripción":"Chocolate con crema de fresa"
         },
         {
             "Nombre": "Moriwi",
@@ -95,7 +99,8 @@
             "topping": "Mora Intensa",
             "precio": 5000,
             "oferta": "si",
-            "imagen": "/Imagenes/moriwi.jpg"
+            "imagen": "/Imagenes/moriwi.jpg",
+            "descripción":"Chocolate con crema de fresa"
         }
 
 

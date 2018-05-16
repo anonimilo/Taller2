@@ -20,11 +20,12 @@
 
     <div class="header">
 
-
+<img class="logo" src="/public/Imagenes/Logo.png" alt="">
     <h2>Productos</h2>
     </div>
-    <h2>Carrito:<span class="carrito">0</span>
-    </h2>
+
+    <h3>Carrito:<span class="carrito">0</span>
+    </h3>
     <div class="productos">
 
      
@@ -34,8 +35,10 @@
 <div class="algo" data-id="{{this._id}}">
     <div class="productoContainer">
         <div class="producto">
+            
             <a href="/cono/{{Nombre}}">
-                <img src="{{imagen}}" alt="{{sabor}}"> </a>
+           
+            <img src="{{imagen}}" alt="{{sabor}}"> </a>
             <h2 class="precio">${{precio}}</h2>
             <button class="agregar">Agregar</button>
         </div>
@@ -45,7 +48,7 @@
     </div>
     <div class="filtro">
         <div class="precio">
-            <h3>Precio</h3>
+            <h2>Precio</h2>
             <br>
             <a href="/?precio=2000&precio=3000">
                 <p>2000 - 3000</p>
@@ -60,7 +63,7 @@
         <br>
         <br>
         <div class="sabor">
-            <h3 class="titleSort">Sabores</h3>
+            <h2 class="titleSort">Sabores</h2>
             <br>
             <a href="/?sabor=Chocolate">
                 <p>Chocolate</p>

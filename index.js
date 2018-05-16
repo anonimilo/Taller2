@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient,
     express = require('express');
-engines = require('consolidate');
+    engines = require('consolidate');
 
 var app = express(),
     db;
@@ -37,10 +37,10 @@ app.get("/", (req, res) => {
             }
         });
     }
-    if (req.query.sabor) 
-    cono.filter({
-        sabor: req.query.sabor
-    });
+    if (req.query.sabor)
+        cono.filter({
+            sabor: req.query.sabor
+        });
 
     cono.toArray((err, result) => {
         console.log(result);
@@ -56,16 +56,15 @@ app.get("/", (req, res) => {
 
 
 
-app.get("/cono/:Nombre", (req, res) => {
+app.get("/cono/:nombre", (req, res) => {
     console.log("hola");
-    db.collection('Helados').find (
-        {
-            Nombre: req.params.Nombre
-        })
-        .toArray((err, result) => {
-        console.log(result[0]);
+    db.collection('cono').find({
+        Nombre: req.params.nombre
+    })
+    .toArray((err, result) => {
+        //console.log(result[0]);
         res.render('producto', {
-            Helados: result[0]
+            cono: result[0]
         });
     });
 });

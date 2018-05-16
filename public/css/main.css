@@ -9,8 +9,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-body .header .holi {
-  position: absolute;
+body h3 {
+  margin-top: 40px;
+  float: right;
+}
+
+body .header .logo {
   margin-top: 25px;
   margin-left: 15px;
 }
@@ -18,10 +22,10 @@ body .header .holi {
 body .header h2 {
   position: relative;
   color: #ee7b7b;
-  font-size: 40px;
+  font-size: 120px;
   padding-top: 120px;
   font-weight: 700;
-  padding-left: 270px;
+  padding-left: 40px;
 }
 
 body .productos {
@@ -39,6 +43,12 @@ body .productos .producto {
   flex: 0 1 auto;
   align-self: auto;
   margin-left: 10px;
+}
+
+body .productos .producto .agregar {
+  color: #ee7b7b;
+  font-family: 'Montserrat',sans-serif;
+  border: 0em;
 }
 
 body .filtro {
