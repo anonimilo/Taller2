@@ -3,7 +3,7 @@
 
         {
 
-            "Nombre": "Choco Paradise",
+            "Nombre": "ChocoParadise",
             "sabor": "Chocolate",
             "topping": "Fresa",
             "precio": 8500,
@@ -14,7 +14,7 @@
         ,
         {
 
-            "Nombre": "Party Avocado",
+            "Nombre": "PartyAvocado",
             "sabor": "Vainilla",
             "topping": "Aguacate",
             "precio": 6000,
@@ -36,7 +36,7 @@
         ,
         {
 
-            "Nombre": "Vainilla Lovers",
+            "Nombre": "VainillaLovers",
             "sabor": "Vainilla",
             "topping": "Fresa",
             "precio": 2000,
@@ -55,7 +55,7 @@
 
         }, {
 
-            "Nombre": "Strawberry Lover",
+            "Nombre": "StrawberryLover",
             "sabor": "Fresa",
             "topping": "Chocolate",
             "precio": 6900,
@@ -63,7 +63,7 @@
             "imagen": "/Imagenes/Straw.jpg"
         },
         {
-            "Nombre": "Avocado Party",
+            "Nombre": "AvocadoParty",
             "sabor": "Vainilla",
             "topping": "Aguacate",
             "precio": 8500,
@@ -71,7 +71,7 @@
             "imagen": "/Imagenes/Avocado.jpg"
         },
         {
-            "Nombre": "Tropical Life",
+            "Nombre": "TropicalLife",
             "sabor": "Fresa",
             "topping": "Chocolate",
             "precio": 7350,
@@ -79,7 +79,7 @@
             "imagen": "/Imagenes/Tropi.jpg"
         },
         {
-            "Nombre": "Choco Expresión",
+            "Nombre": "ChocoExpresión",
             "sabor": "Chocolate",
             "topping": "Vainilla",
             "precio": 1500,

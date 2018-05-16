@@ -49,4 +49,23 @@ app.get("/", (req, res) => {
         })
     });
 
+
+
+});
+
+
+
+
+app.get("/cono/:Nombre", (req, res) => {
+    console.log("hola");
+    db.collection('Helados').find (
+        {
+            Nombre: req.params.Nombre
+        })
+        .toArray((err, result) => {
+        console.log(result[0]);
+        res.render('producto', {
+            Helados: result[0]
+        });
+    });
 });
