@@ -7,28 +7,41 @@
 body{
  background-color:white;
  font-family: 'Montserrat', sans-serif;
-.Productos {
-    h3{
-        color: tomato;
-        position: absolute;
-        margin-top: 30px;
-       
-        margin-left: 90%;
-    }   
-}
+.productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    
+    
+    .holi{
+      margin-top: 25px;
+      margin-left: 15px; 
+    }
 
-.logo {
-    margin-top: 15PX;
-    margin-left: 15PX;
-    float: left;
-    width: 80%;
-    height: 80%;
+    h2{
+        color: tomato;
+        font-size: 40px;
+        margin-top: 100px;
+       font-weight: 700;
+        margin-left: 10px;
+    }   
+
+    .producto{
+        margin-top: 250px;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+         
+       
+    }
 }
 
 .filtro {
     font-family: 'Montserrat',
     sans-serif;
-    margin-top: 190px;
+    margin-top: 10px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -39,9 +52,5 @@ body{
         letter-spacing: 5mm;
     }
   
-    .cate {
-        font-size: 12px;
-        color: darkgrey;
-    }
 }
 }
